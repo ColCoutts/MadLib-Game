@@ -3,19 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Madlib Game!</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <h1>Cooking with Dracula!</h1>
 
     <!--Please add one (noun) to your (adjective) stew. Stir (verb) with your (noun). Season with (noun), then enjoy (adverb)!-->
+    <label>
+        Noun:
+        <input id= 'noun-one'>
+    </label>
 
-    <p>Please add one <input id= 'noun-one'> noun to your <input id='adjective'> adjective stew.</p>
-    <p>Stir <input id='verb'> verb with your <input id= 'noun-two'> noun.</p> 
-    <p>Season with <input id='body-part'> body part, then enjoy <input id='adverb'> adverb AH-AH-AH!</p>
-    
+    <label>
+        Adjective:
+        <input id='adjective'>
+    </label>
 
+    <label>
+        Verb:
+        <input id='verb'>
+    </label>
+
+    <label>
+        Noun:
+        <input id= 'noun-two'>
+    </label>
+
+    <label>
+        Body Part:
+        <input id='body-part'>
+    </label>
+
+    <label>
+        Adverb:
+        <input id='adverb'>
+    </label>
+
+    <p>
+        <button onclick="greet()">Madliberize it!</button>
+    </p>
 
     <script src='main.js'></script>
 </body>
