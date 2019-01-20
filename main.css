@@ -1,14 +1,14 @@
 h1 {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif
 }
 .column{
     float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px;
+    width: 50%; 
+    height: 330px;
 }
 
-.row:after {
+.row{
     content: "";
     display: table;
     clear: both;
@@ -17,17 +17,25 @@ h1 {
 label {
     display: block;
     padding: 5px;
-    margin: 5px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif
 }
 p {
     float: left;
     display: block;
     padding: 5px;
     margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 #hello {
     display: block;
-    text-align: center;
     padding: 10px;
+}
+
+button {
+    align-content: center;
+    width: 250px;
+    background-color: lemonchiffon;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
