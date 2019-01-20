@@ -10,41 +10,46 @@
     <h1>Cooking with Dracula!</h1>
 
     <!--Please add one (noun) to your (adjective) stew. Stir (verb) with your (noun). Season with (noun), then enjoy (adverb)!-->
-    <label>
-        Noun:
-        <input id= 'noun-one'>
-    </label>
+<div class="row">
+  <div class="column" style="background-color: bisque">
 
-    <label>
-        Adjective:
-        <input id='adjective'>
-    </label>
-
-    <label>
-        Verb:
-        <input id='verb'>
-    </label>
-
-    <label>
-        Noun:
-        <input id= 'noun-two'>
-    </label>
-
-    <label>
-        Body Part:
-        <input id='body-part'>
-    </label>
-
-    <label>
-        Adverb:
-        <input id='adverb'>
-    </label>
-
-    <p>
-        <button onclick="madliberize()">Madliberize it!</button>
-    </p>
-
-    <p id="hello">Enter some words to get a custom madlib</p>
+        <label>
+            Noun:
+            <input id= 'noun-one'>
+        </label>
+    
+        <label>
+            Adjective:
+            <input id='adjective'>
+        </label>
+    
+        <label>
+            Adverb:
+            <input id='verb'>
+        </label>
+    
+        <label>
+            Noun:
+            <input id= 'noun-two'>
+        </label>
+    
+        <label>
+            Body Part:
+            <input id='body-part'>
+        </label>
+    
+        <label>
+            Adverb:
+            <input id='adverb'>
+        </label>
+        <p>
+            <button onclick="madliberize()">Madliberize it!</button>
+        </p>
+        </div>
+    <div class="column" style="background-color: blanchedalmond">
+        <p id="hello">Enter some words to get a custom madlib</p>
+    </div>  
+</div>
 
 
     <script src='main.js'></script>
