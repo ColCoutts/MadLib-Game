@@ -7,7 +7,7 @@ h1 {
     text-align: left;
     color:  rgb(19, 13, 16);
     margin: 20px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Courier New', Courier, monospace;
 }
 .column{
     float: left;
@@ -25,7 +25,7 @@ label {
     display: block;
     padding: 5px;
     margin: 17px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p {
@@ -33,19 +33,24 @@ p {
     display: block;
     padding: 5px;
     margin: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #hello {
     display: block;
     color: rgb(19, 13, 16);
     padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#noun-one {
+    color: aquamarine;
 }
 
 button {
     align-content: center;
     width: 250px;
     background-color: lemonchiffon;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Courier New', Courier, monospace;
 }
 
