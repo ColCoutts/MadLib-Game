@@ -26,10 +26,10 @@ function madliberize(){
 var greeter = 'Please add one ' + nounOne + ' to your ' + adjOne + ' stew. Stir ' + verbOne + ' with your ' + nounTwo + '. Season with ' + bodyBit + ', then enjoy ' + adverbOne+ '!';
 
 // display greeting
+
+
 var hello = document.getElementById('hello');
 hello.textContent = greeter;
-greeter.fontcolor = ('green');
-
 
 //remove prompt
 
