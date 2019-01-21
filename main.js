@@ -28,6 +28,8 @@ var greeter = 'Please add one ' + nounOne + ' to your ' + adjOne + ' stew. Stir 
 // display greeting
 var hello = document.getElementById('hello');
 hello.textContent = greeter;
+greeter.fontcolor = ('green');
+
 
 //remove prompt
 
