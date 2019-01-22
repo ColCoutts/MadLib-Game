@@ -23,10 +23,11 @@ function madliberize(){
     var adverbOne = adverbInput.value;
     console.log (adverbInput.value)
     
-    document.getElementById('hello').style.color = "blue";
+    document.getElementById('colorChange').style.color = "blue";
     
     // make greeting
     var greeter = 'Please add one '+ nounOne + ' to your ' + adjOne + ' stew. Stir ' + verbOne + ' with your ' + nounTwo + '. Season with ' + bodyBit + ', then enjoy ' + adverbOne+ '!';
+
 
     // display greeting
     
