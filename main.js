@@ -23,17 +23,17 @@ function madliberize(){
     var adverbOne = adverbInput.value;
     console.log (adverbInput.value)
     
-    document.getElementById('colorChange').style.color = "blue";
+    // here trying to swap in input values and change text color
+    
     
     // make greeting
-    var greeter = 'Please add one '+ nounOne + ' to your ' + adjOne + ' stew. Stir ' + verbOne + ' with your ' + nounTwo + '. Season with ' + bodyBit + ', then enjoy ' + adverbOne+ '!';
-
-
+    var greeter = `Please add one <span style="color:blue">${nounOne}</span> to your <span style="color:blue">${adjOne}</span> stew. Stir <span style="color:blue">${verbOne}</span> with your <span style="color:blue">${nounTwo}</span>. Season with <span style="color:blue">${bodyBit}</span>, then enjoy <span style="color:blue">${adverbOne}</span> !`;
+    
+    var newColor = document.getElementById('hello').style.color = ('red');
+    
     // display greeting
     
     var hello = document.getElementById('hello');
-    hello.textContent = greeter;
-    
-    
+    hello.innerHTML = greeter;
 }
 
